@@ -36,6 +36,12 @@ try {
         <input type="number" id="precoItem" name="preco" class="form-control" placeholder="Digite o preço do item" step="0.01" required>
       </div>
     
+      <!-- Quantidade em estoque -->
+      <div class="mb-3">
+        <label for="estoque" class="form-label">Quantidade em estoque</label>
+        <input type="number" id="estoque" name="estoque" class="form-control" placeholder="Digite a quantidade em estoque" required>
+      </div>
+
       <!-- Categoria -->
       <div class="mb-3">
         <label for="categoriaItem" class="form-label">Categoria</label>
